@@ -3,7 +3,6 @@ int main()
 {
     int a,b;
     scanf("%d",&a);
-    scanf("%d",&b);
-    print("%d",a~b);
+    print("%d",~a);
     return 0;
 }
