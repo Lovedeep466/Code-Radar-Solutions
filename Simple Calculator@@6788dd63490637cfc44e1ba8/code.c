@@ -18,12 +18,14 @@ int main()
         printf("%d",result);
         break;
         case '/':
-        if(b!=0)
-        result=a+b;
-        printf("%d",result);
-        else
+            if(b!=0)
+            result=a+b;
+            printf("%d",result);
+            else
+            printf("error");
+            break;
+        default:
         printf("error");
-        break;
     
     }
     return 0;
