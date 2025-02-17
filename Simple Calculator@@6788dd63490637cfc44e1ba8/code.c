@@ -2,8 +2,7 @@ include <stdio.h>
 int main() {
 char operator;
 float num1, num2, result;
-printf("Enter an operator (+, -, *, /): ");
-scanf(" %c", &operator); // Note: Space before %c to ignore previous newline
+scanf(" %c", &operator); 
 printf("Enter two numbers: ");
 scanf("%f %f", &num1, &num2);
 // Perform the operation
