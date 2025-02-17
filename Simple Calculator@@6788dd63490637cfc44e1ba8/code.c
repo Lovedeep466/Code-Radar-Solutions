@@ -1,24 +1,32 @@
-#include<stdio.h>
-int main()
-{
-    int a,b;
-    scanf("%d %d",&a,&b);
-    char ch;
-    scanf("%c",&ch);
-    if(ch == '+'){
-        printf("%d",a+b);
-    }
-    else if(ch == '-'){
-        printf("%d",a-b);
-    }
-    else if(ch == '*'){
-        printf("%d",a*b);
-    }
-    else if(ch == '/') {
-        printf("%d",a/b);
-    }
-    esle{
-        printf("Error");
-    }
-    return 0;
+include <stdio.h>
+int main() {
+char operator;
+float num1, num2, result;
+printf("Enter an operator (+, -, *, /): ");
+scanf(" %c", &operator); // Note: Space before %c to ignore previous newline
+printf("Enter two numbers: ");
+scanf("%f %f", &num1, &num2);
+// Perform the operation
+switch (operator) {
+case '+':
+result = num1 + num2;
+printf("Result: %.2f\n", result);
+break;
+case '-':
+result = num1 - num2;
+printf("Result: %.2f\n", result);
+break;
+case '*':
+result = num1 * num2;
+printf("Result: %.2f\n", result);
+break;
+case '/':
+if (num2 != 0)
+result = num1 / num2;
+else
+printf("Error: Division by zero is not allowed.\n");
+break;
+default:
+printf("Invalid operator.\n");
 }
+return 0;
