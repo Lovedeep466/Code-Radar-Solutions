@@ -1,8 +1,8 @@
-#includ<stdio.h>
+#include<stdio.h>
 int main()
 {
-    double a;
+    int a;
     scanf("%f",&a);
-    printf("%lf",a);
+    printf("You entered: %.4f",a);
     return 0;
 }
