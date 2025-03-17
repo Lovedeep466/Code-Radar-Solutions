@@ -6,7 +6,7 @@ int main()
     
     printf("Enter the number of rows: ");
     scanf("%d", &N);
-    
+
     for (i = 1; i <= N; i++) 
     {
         for (j = 1; j <= i; j++) {
@@ -18,4 +18,3 @@ int main()
     return 0;
 }
 
-}
