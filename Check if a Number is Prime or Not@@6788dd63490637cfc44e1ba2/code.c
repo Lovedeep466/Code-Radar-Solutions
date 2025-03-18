@@ -10,11 +10,11 @@ int main()
             break;
         }
     }
-    if(a==0){
-        printf("Prime");
+    if(a==1){
+        printf("Not Prime");
     }
     else{
-        printf("Not Prime");
+        printf("Prime");
     }
     return 0;
 }
