@@ -26,7 +26,7 @@ int main()
         case '/':
         {
             if(b!=0){
-                result=a+b;
+                result=a/b;
                 printf("%d",result);
             }
             else{
