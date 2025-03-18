@@ -28,6 +28,7 @@ int main()
             if(b!=0){
                 result=a/b;
                 printf("%d",result);
+                break;
             }
             else{
             printf("error");
