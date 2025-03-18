@@ -2,25 +2,29 @@
 int main()
 {
     char sign;
-    int a,b;
+    int a,b,result;
     scanf("%d %d %c",&a,&b,&sign);
     switch(sign){
-        case '+':{
+        case '+':
+        {
             result=a+b;
             printf("%d",result);
             break;
         }
-        case '-':{
+        case '-':
+        {
             result=a-b;
             printf("%d",result);
             break;
         }    
-        case '*':{
+        case '*':
+        {
             result=a*b;
             printf("%d",result);
             break;
         }
-        case '/':{
+        case '/':
+        {
             if(b!=0){
                 result=a+b;
                 printf("%d",result);
