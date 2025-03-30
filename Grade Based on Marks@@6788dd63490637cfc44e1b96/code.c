@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    if(a>=90){
+    int marks;
+    scanf("%d",&marks);
+    if(marks>=90){
         printf("A");
     }
-    else if(a>=80 && a<90){
+    else if(marks>=80){
         printf("B");
     }
-    else if(a>=70 && a<80){
+    else if(marks>=70){
         printf("C");
     }
-    else if(a>=60 && a<70){
-        printf("D");
+    else if(marks>=60){
+        printf("D")
     }
     else{
-        printf("F");
+        printf("F")
     }
     return 0;
 }
